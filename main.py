@@ -18,10 +18,14 @@ print(3)
 #z /= 3.14
 #print( str(x) + " " + str(y) + " " + str(z) + " " + str(type(z)))
 
-x=int(input("Zadej cislo: "))
-y=int(input("Zadej druhe cislo: "))
-a = x * 2
-b = y / 2
-b = int(b)
-c = x == y
-print( str(x) + " " + str(y) + " " + str(a) + " " + str(b) + " " + str(c))
+#x=int(input("Zadej cislo: "))
+#y=int(input("Zadej druhe cislo: "))
+#a = x * 2
+#b = y / 2
+#b = int(b)
+#c = x == y
+#print( str(x) + " " + str(y) + " " + str(a) + " " + str(b) + " " + str(c))
+
+vek=int(input("jaký je tvuj věk: "))
+if vek >= 18:
+    print("jsi dospělý")
