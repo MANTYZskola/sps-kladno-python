@@ -61,3 +61,5 @@ if operace not in ["+", "-", "*", "/"]:
 if cislo2 == 0 and operace == "/":
     print("Nelze delit nulou")
 """
+
+vek
